@@ -56,7 +56,7 @@ var s;
         thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg","_s.jpg");}
         if (thumbUrl == "" && showNoImage == true) 
         {
-        thumbUrl = "http://2.bp.blogspot.com/-erTXCq61ULM/TmHYAQBZ0GI/AAAAAAAACCs/6cBX54Dn6Gs/s72-c/default.png";
+        thumbUrl = "default.png";
         try{if(defaultImage!="") thumbUrl=defaultImage;}catch(error){}
         thumbUrl = thumbUrl.replace("/s72-c/","/s"+imgDim+"-c/");
         }
@@ -192,7 +192,7 @@ myDiv = createDiv("stay_at_home_jobs_clear_float");
 myDiv.style.clear=imgFloat;
 main.appendChild(myDiv);
 }
-document.getElementById("stay_at_home_jobs_link").style.backgroundImage="url('http://3.bp.blogspot.com/-H8WPIh3wjr4/TmHnuo9tnnI/AAAAAAAACDE/_yuVqfb1HAk/blogger-widgets.png')";
+document.getElementById("stay_at_home_jobs_link").style.backgroundImage="url('stay-at-home-jobs-blogger.png')";
 document.getElementById("stay_at_home_jobs_link").style.backgroundRepeat="no-repeat";
 try{
 if(myMargin!=0 && imgFloat=="left" && flag==0) document.getElementById("stay_at_home_jobs_link").style.marginLeft = myMargin+"px";
