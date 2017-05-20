@@ -3,7 +3,7 @@ var postTitleOriginal,  myLink, myDiv, myImage,mySeparator;
 var    main;
 var float_clear=false;
 var flag = 0;
-function bprecentpostswiththumbnails(json) {
+function sahj(json) {
 
 for (var i = 0; i < numberOfPosts; i++) {
 if (i == json.feed.entry.length) break;
