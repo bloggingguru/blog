@@ -109,7 +109,6 @@ var s;
         myImage.setAttribute("alt", postTitleOriginal);
         myImage.setAttribute("width", imgDim);
         myImage.setAttribute("height", imgDim);
-        myImage.setAttribute("border", imgBor);
         myLink = document.createElement('a');
         myLink.setAttribute("href", postUrl+"?utm_source=stay_at_home_jobs&utm-medium=gadget&utm_campaign=jobs_for_stay_at_home_moms");
         myLink.setAttribute("target", "_blank");
